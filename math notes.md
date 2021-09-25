@@ -24,7 +24,9 @@
 
 - more examples
 (5a^2 − 6a − 4) - (-7a^2 + 3a - 9) = (5a^2 − 6a − 4) + 7a^2 - 3a + 9 = 12a^2 - 9a + 5 
-(-7y^2 + 3y - 6) - (3y^2 + 4y + 4) = 
+(-7y^2 + 3y - 6) - (3y^2 + 4y + 4) = (-7y^2 + 3y - 6) - 3y^2 - 4y - 4 = -10y^2 -y - 10
+(8x^2 − 6x + 2) - (3x^2 + 7x + 4) = (8x^2 − 6x + 2) - 3x^2 - 7x + 4 = 5x^2 - 13x + 6
+(7x^2 - 3x + 10) - (-4x^2 + 6x - 4) = (7x^2 - 3x + 10) + 4x^2 - 6x + 4 = 11x^2 - 9x + 14
 
 ## tools
 ``` python
@@ -34,8 +36,45 @@ def arc(function, a, b):
 
 ```
 
-``` python
 
+#### attempt at polynomial arithmetic function
+``` python 
+# from functools import reduce
+# def composite_addition(*func):  
+#     def compose(a, b):
+#         return lambda x : a(b(list(x)))
+#     return reduce(compose, func, lambda : x)
+
+# def add(A, B, m, n):
+#     size = max(m, n);
+#     sum = [0 for i in range(size)]     
+#     for i in range(0, m, 1):
+#         sum[i] = A[i]
+#     for i in range(n):
+#         sum[i] += B[i]
+#     return sum
+
+# def source_poly(poly, n, var: str):
+#     resultset = []
+#     for i in range(n):
+#         x = poly[i]
+#         if (i != 0):
+#             monomial = str(x) + str(str(var)+'^' + str(i)) + ' +' 
+#             resultset.append(monomial)
+#     resultset[-1] = resultset[-1].replace(' +','')    
+#     return resultset
+
+
+# def construct_poly_string(*args: list):
+#     for arg in args:
+#         return ' '.join(arg)        
+
+# add_poly = composite_addition(construct_poly_string, source_poly, add)
+
+# A = [5, 0, 10, 6]
+# B = [1, 2, 4]
+# m = len(A)
+# n = len(B)   
 ```
 
 #### worksheet
