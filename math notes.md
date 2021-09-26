@@ -28,6 +28,35 @@
 (8x^2 − 6x + 2) - (3x^2 + 7x + 4) = (8x^2 − 6x + 2) - 3x^2 - 7x + 4 = 5x^2 - 13x + 6
 (7x^2 - 3x + 10) - (-4x^2 + 6x - 4) = (7x^2 - 3x + 10) + 4x^2 - 6x + 4 = 11x^2 - 9x + 14
 
+
+3. multiplication
+**A. multiply monomials/monomials by polynomials**
+- like terms get multiplied add exponents
+(5x^2)(3x^5) = 15x^7
+- find area monomial * polynomial, a = w*l
+4x^3(x^3+3x^2+2x) = 4x^6 + 12x^5 + 8x^4
+
+**B. mutiply binomials by polynomials**
+- find area:
+(-6y + y^2)(3y^2 - 2y + 1) = -18y^3 + 3y^4 + 12y^2 - 2y^3 - 6y + y^2 = 3y^4 - 20y^3 + 13y^2 - 6y
+(x + 9)(x^2 + 2x) = x^3 + 9x^2 + 2x^2 + 18x = x^3 + 11x^2 + 18x
+(b^3 + b^2)(b^2 + 7b + 4) = b^5 + b^4 + 7b^4 + 7b^3 + 4b^3 + 4b^2 = b^5 + 8b^4 + 11b^3 + 4b^2
+
+- scratch for quiz
+(w^2 + 2)(w^2 + 3w + 9)
+w^4 + 2w^2 + 3w^3 + 6w + 9w^2 + 18 = w^4 + 3w^3 + 11w^2 + 6w + 18 
+
+(r^2 - 7)(-r^2 + 3r - 7) = (-r^4 + 7r^2) + (3r^3 - 21r) - (7r^2 - 49) +
+
+2w^2 + 12w + 18
+3w^3 + 18w^2 + 27w
+
+
+(8w^4 + w^3)(8w^4 + w^3) = 64w^8 + 8w^7 + 8w^7 + w^6 = 64w^8 + 16w^7 + w^6
+
+(4d^2 - 2d^7)(4d^2 - 2d^7) = 16d^4 - 8d^9 - 8d^9 - 4d^14
+
+
 ## tools
 ``` python
 
